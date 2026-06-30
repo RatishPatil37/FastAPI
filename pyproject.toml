@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastapi>=0.115.0",
+    "fastapi-users[sqlalchemy]>=14.0.0",
     "aiosqlite>=0.22.1",
     "imagekitio>=5.7.0",
     "python-dotenv>=1.2.2",
